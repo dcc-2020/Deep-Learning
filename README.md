@@ -22,4 +22,4 @@ For this analysis, we look at a data set from a non-profit organization which re
 ## Conclusion
 <!---![alt text](screenshot/accuracy_test.jpg "test")--->
 <img src="https://github.com/dcc-2020/Deep-Learning-Challenge/blob/main/screenshot/accuracy_test.jpg"  width=50% height=50%>
-In the end, using the Keras tuner still did not reach the target goal of 75% accuracy. The accuracy 
+In the end, using the Keras tuner still did not reach the target goal of 75% accuracy. The accuracy did went up but it did not even increase by 1%. In this case, instead of tuning the model, it will be better to do more transformation with the origional data such as dropping more columns or use better grouping. If possible, another option is to increase the size of the data set.
