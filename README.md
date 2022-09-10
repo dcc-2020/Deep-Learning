@@ -21,4 +21,5 @@ For this analysis, we look at a data set from a non-profit organization which re
 
 ## Conclusion
 ![alt text](screenshot/accuracy_test.jpg "test")
+<img src="https://github.com/dcc-2020/Deep-Learning-Challenge/blob/main/screenshot/accuracy_test.jpg"  width=50% height=50%>
 In the end, using the Keras tuner still did not reach the target goal of 75% accuracy. The accuracy 
