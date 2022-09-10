@@ -20,4 +20,5 @@ For this analysis, we look at a data set from a non-profit organization which re
 - As for creating the model, the first model created had an accuracy of a little under 75% so I tried to optimize the model by doing some small changes. I binned more datas, changed the amount of neurons, and add more layers. I change from 2 hidden layers to 3 and used 94 neurons for the first layer and 47 for the second and third layers. After rerunning the models serval times, it stay around 72%-73% which is about the same as the first model created. Lastly I used a Keras tuner to optimize the model and see if it can reach 75% accuracy.
 
 ## Conclusion
+![alt text](screenshot/accuracy_test.png "test")
 In the end, using the Keras tuner still did not reach the target goal of 75% accuracy. The accuracy 
