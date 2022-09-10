@@ -14,3 +14,7 @@ For this analysis, we look at a data set from a non-profit organization which re
 - SPECIAL_CONSIDERATIONS—Special consideration for application
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
+
+## Steps
+- In order to use this data for deep learning, some data processing was performed first. The target for this anaylsis is the IS_SUCCESSFUL. The EIN and NAME columns are considered neither a target or feature so these 2 columns were dropped. The rest of the columns were kept as features that will be use for the model.
+- As for creating the model, the first model created had an accuracy of a little under 75% so I tried to optimize the model by doing some small changes. I binned more datas, changed the amount of neurons, and add more layers. I change from 2 hidden layers to 3 and used 94 neurons for the first layer and 47 for the second and third layers. After rerunning the models serval times, it stay around 72%-73% which is about the same as the first model created. Lastly I used a Keras tuner to optimize the model and see if it can reach 75% accuracy.
